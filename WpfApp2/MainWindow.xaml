@@ -1,0 +1,83 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--ListBox Height="150" Width="250" SelectionMode="Extended" Margin="79,142,471,142">
+            <ListBoxItem IsSelected="True">Item 1</ListBoxItem>
+            <ListBoxItem>Item 2</ListBoxItem>
+            <ListBoxItem>Item 3</ListBoxItem>
+        </ListBox>
+        <ComboBox Height="50" Width="100" Margin="484,142,216,242">
+            <ComboBoxItem>Item 1</ComboBoxItem>
+            <ComboBoxItem>Item 2</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">Item 3</ComboBoxItem>
+        </ComboBox>-->
+        <!--TreeView>
+            <TreeViewItem Header="Programing" IsExpanded="True">
+                <TreeViewItem Header="SQL"/>
+                <TreeViewItem Header="C#" IsExpanded="True">
+                    <TreeViewItem Header="LINQ" IsSelected="True" IsExpanded="True"/>
+                    <TreeViewItem Header="Generic"/>
+                    <TreeViewItem Header="Colection"/>
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>-->
+        <!--TabControl>
+            <TabItem Header="Programing">
+                <ListBox Height="100" Width="150">
+                    <ListBoxItem>Item 1</ListBoxItem>
+                    <ListBoxItem>Item 2</ListBoxItem>
+                    <ListBoxItem>Item 3</ListBoxItem>
+                </ListBox>
+            </TabItem>
+        </TabControl>-->
+        <!--Button Margin="100">
+            <StackPanel>
+                <TextBlock Text="Button 1"/>
+                <Popup x:Name="p1" Placement="MousePoint">
+                    <TextBlock Background="Aqua" Text="My popup" Padding="5" Foreground="Black"/>
+                </Popup>
+            </StackPanel>
+        </Button>-->
+        <Menu IsMainMenu="True">
+            <MenuItem Header="File">
+                <MenuItem Header="New">
+                    <MenuItem Header="Project" InputGestureText="Ctrl+Shift+N"/>
+                    <MenuItem Header="Web Site" InputGestureText="Shift+Alt+N"/>
+                    <MenuItem Header="Team Progect"/>
+                    <MenuItem Header="File" InputGestureText="Ctrl+N"/>
+                    <MenuItem Header="Project From Exiting Code...."/>
+                </MenuItem>
+                <MenuItem Header="Open">
+                    <MenuItem Header="fdggfd" InputGestureText="Ctrl+Shift+O"/>
+                    <MenuItem Header="fgdgd" InputGestureText="Ctrl+Shift+Alt+O"/>
+                    <MenuItem Header="fgddfgdsgd" InputGestureText="Shift+Alt+O"/>
+                    <MenuItem Header="fdga"/>
+                    <Separator/>
+                    <MenuItem Header="dsfsd" InputGestureText="Crtl+O"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Desing">
+                <MenuItem Header="Photo" IsCheckable="True"/>
+                <MenuItem Header="Photo11" IsCheckable="True" IsChecked="True"/>
+            </MenuItem>
+        </Menu>
+        <!--Button>
+            <Button.ToolTip>
+                <StackPanel>
+                    <TextBlock Foreground="Aqua" Text="Text1"/>
+                    <TextBlock Foreground="BlueViolet" Text="Text2"/>
+                </StackPanel>
+            </Button.ToolTip>
+        </Button>-->
+    </Grid>
+    <!--Window.ContextMenu>
+        <ContextMenu>
+        </ContextMenu>
+    </Window.ContextMenu>-->
+</Window>
